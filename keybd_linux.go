@@ -163,6 +163,7 @@ func (k *KeyBonding) Launching() error {
 		}
 	}
 	if k.hasSHIFT {
+		time.Sleep(100 * time.Millisecond)
 		err := upKey(_VK_SHIFT)
 		if err != nil {
 			return err
