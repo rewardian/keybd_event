@@ -9,6 +9,7 @@ import (
 	"errors"
 	"os"
 	"syscall"
+	"time"
 )
 
 type uinput_user_dev C.struct_uinput_user_dev
